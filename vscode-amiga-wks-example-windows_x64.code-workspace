@@ -20,7 +20,7 @@
 			"file": "bin\\windows_x64\\vlink.exe",
 			"includes": "*.s",
 			"excludes": "",
-			"exefilename": "..\\fs-uae\\hd0\\gencop",
+			"exefilename": "..\\fs-uae\\hd0\\BlenkVektor",
 			"options": [
 				"-bamigahunk",
 				"-Bstatic"

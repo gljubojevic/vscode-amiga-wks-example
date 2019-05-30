@@ -20,7 +20,7 @@
 			"file": "bin/debian9_x64/vlink",
 			"includes": "*.s",
 			"excludes": "",
-			"exefilename": "../fs-uae/hd0/gencop",
+			"exefilename": "../fs-uae/hd0/BlenkVektor",
 			"options": [
 				"-bamigahunk",
 				"-Bstatic"

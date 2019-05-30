@@ -16,6 +16,18 @@ The binaries are build for Osx.
 ## Setup VSCode
 - Launch VSCode and install the *Amiga Assembly Extension* extension
 
+For OSX you can use script to get latest FS-UAE and adf tools in terminal
+```bash
+./tools/prepare_osx.sh
+```
+
+## Tools folder
+Contains support tools for easier work
+
+### OSX tools
+- **prepare_osx.sh** is shell script for FS-UAE and adf binary tools download from plugin repo
+- **clean_osx.sh** is shell script for cleaning repo before git commit, not really neaded if .gitignore is setup correctly
+
 ## Debug the application
 - Open the workspace **File/Open Workspace...** -> Select the **corresponding file to your OS**
 - **Select the debug launch configuration corresponding to your OS** and press *start debugging*

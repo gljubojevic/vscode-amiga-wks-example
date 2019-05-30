@@ -1,4 +1,12 @@
-sys:gencop
-
+; define aplication to start
+SET APP "sys:BlenkVektor"
+; start application
+IF EXISTS $APP
+	$APP
+ELSE
+	ECHO ""
+	ECHO "Missing $APP executable!"
+	ASK "Compile Error?"
+ENDIF
 ; Quits the emulator at the end of the program
 UAEquit
